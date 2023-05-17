@@ -1,0 +1,44 @@
+.oknoPowrotu {
+    display: block;
+    color: orange;
+    padding: 8px 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+
+  li {
+    background-color: #ffad33;
+    color: black;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: separate;
+    width: 80%;
+    margin: 30px 0;
+  }
+
+  td,
+  th {
+    border: 1px solid #72490b;
+    padding: 8px;
+  }
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    } 
+  }
