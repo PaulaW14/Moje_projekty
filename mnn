@@ -54,7 +54,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TNjUSqaqcWedF4puuagu-31" value="Płatność" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="TNjUSqaqcWedF4puuagu-31" value="Rozliczenie wizyty" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="790" y="447.75" width="110" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="TNjUSqaqcWedF4puuagu-32" value="System płatności" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
@@ -67,22 +67,22 @@
           <mxGeometry x="110" y="323.75" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AJP5FDndrqF3J7HxOb-Y-2" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
-          <mxGeometry x="138.7" y="1450" width="30" height="30" as="geometry" />
+          <mxGeometry x="29.999999999999986" y="1510" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AJP5FDndrqF3J7HxOb-Y-3" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
-          <mxGeometry x="399" y="1420" width="30" height="30" as="geometry" />
+          <mxGeometry x="580" y="1510" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AJP5FDndrqF3J7HxOb-Y-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AJP5FDndrqF3J7HxOb-Y-5" target="AJP5FDndrqF3J7HxOb-Y-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AJP5FDndrqF3J7HxOb-Y-5" value="Wyszukanie specjalisty" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="138.7" y="990" width="141.3" height="40" as="geometry" />
+          <mxGeometry x="142" y="890" width="141.3" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AJP5FDndrqF3J7HxOb-Y-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AJP5FDndrqF3J7HxOb-Y-11" target="AJP5FDndrqF3J7HxOb-Y-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AJP5FDndrqF3J7HxOb-Y-11" value="Przypisanie specjalisty" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="138.7" y="1060" width="140" height="40" as="geometry" />
+          <mxGeometry x="142" y="960" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AJP5FDndrqF3J7HxOb-Y-12" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TNjUSqaqcWedF4puuagu-20" target="TNjUSqaqcWedF4puuagu-29">
           <mxGeometry x="0.0447" y="12" width="160" relative="1" as="geometry">
@@ -94,44 +94,109 @@
         <mxCell id="TNjUSqaqcWedF4puuagu-29" value="Potwierdzenie wizyty" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="453" width="110" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="AJP5FDndrqF3J7HxOb-Y-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AJP5FDndrqF3J7HxOb-Y-13" target="AJP5FDndrqF3J7HxOb-Y-29">
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AJP5FDndrqF3J7HxOb-Y-13" target="AJP5FDndrqF3J7HxOb-Y-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AJP5FDndrqF3J7HxOb-Y-13" value="Potwierdzenie wizyty" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="141.3" y="1290" width="140" height="40" as="geometry" />
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-13" value="Generowanie przypomnienia" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="141.3" y="1310" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AJP5FDndrqF3J7HxOb-Y-14" value="Utworzenie wizyty" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="142" y="1210" width="140" height="40" as="geometry" />
+          <mxGeometry x="138.7" y="1230" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AJP5FDndrqF3J7HxOb-Y-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="AJP5FDndrqF3J7HxOb-Y-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="208.2" y="1170" as="sourcePoint" />
-            <mxPoint x="208.2" y="1210" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="AJP5FDndrqF3J7HxOb-Y-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="208.2" y="1250" as="sourcePoint" />
-            <mxPoint x="208.2" y="1290" as="targetPoint" />
+            <mxPoint x="209.79999999999998" y="1270" as="sourcePoint" />
+            <mxPoint x="209.79999999999998" y="1310" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AJP5FDndrqF3J7HxOb-Y-19" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="1">
-          <mxGeometry x="192" y="920" width="30" height="30" as="geometry" />
+          <mxGeometry x="195.3" y="820" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AJP5FDndrqF3J7HxOb-Y-24" value="Wybranie terminu&lt;br&gt;i godziny" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="138.7" y="1129" width="140" height="40" as="geometry" />
+          <mxGeometry x="142" y="1029" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AJP5FDndrqF3J7HxOb-Y-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="208.2" y="950" as="sourcePoint" />
-            <mxPoint x="208.2" y="990" as="targetPoint" />
+            <mxPoint x="211.5" y="850" as="sourcePoint" />
+            <mxPoint x="211.5" y="890" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AJP5FDndrqF3J7HxOb-Y-29" target="AJP5FDndrqF3J7HxOb-Y-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-44" value="Brak potwierdzenia" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AJP5FDndrqF3J7HxOb-Y-43">
+          <mxGeometry x="0.0291" y="3" relative="1" as="geometry">
+            <mxPoint x="5" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AJP5FDndrqF3J7HxOb-Y-29" target="AJP5FDndrqF3J7HxOb-Y-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="1525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-48" value="Potwierdzenie wizyty" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AJP5FDndrqF3J7HxOb-Y-46">
+          <mxGeometry x="-0.0101" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AJP5FDndrqF3J7HxOb-Y-29" value="" style="rhombus;" vertex="1" parent="1">
-          <mxGeometry x="182.3" y="1370" width="58" height="50" as="geometry" />
+          <mxGeometry x="183" y="1500" width="58" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-31" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="181.45000000000002" y="1100" width="57.7" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210.8" y="1070" as="sourcePoint" />
+            <mxPoint x="209.8" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="AJP5FDndrqF3J7HxOb-Y-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="241.44" y="1130" as="sourcePoint" />
+            <mxPoint x="380" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="1130" />
+              <mxPoint x="360" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-34" value="Brak terminu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AJP5FDndrqF3J7HxOb-Y-33">
+          <mxGeometry x="-0.8375" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="AJP5FDndrqF3J7HxOb-Y-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="1160" as="sourcePoint" />
+            <mxPoint x="260" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-36" value="Dostępny termin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="1178" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-37" value="Potwierdzenie wizyty" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;arcSize=10;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="151.3" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="212.15" y="1450" as="sourcePoint" />
+            <mxPoint x="212.15" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="1524.5" as="sourcePoint" />
+            <mxPoint x="580" y="1524.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="505" y="1524.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJP5FDndrqF3J7HxOb-Y-47" value="Rozliczenie wizyty" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1505" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
